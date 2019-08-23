@@ -10,8 +10,9 @@ tensorflow1.12-CUDA编译成功。
 >  - patches
 >  - tensorflow
 
-进入tensorflow源码根目录执行（patches中的补丁文件来源于https://github.com/guikarist/tensorflow-windows-build-script）：
+再执行（patches中的补丁文件来源于 https://github.com/guikarist/tensorflow-windows-build-script ）：
 ```
+cd tensorflow
 git apply --ignore-space-change --ignore-white "..\patches\eigen.1.12.0.patch"
 git apply --ignore-space-change --ignore-white "..\patches\cpp_symbol.1.12.0.patch"
 ```
